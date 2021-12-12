@@ -1,7 +1,7 @@
 import random
 import numpy as np
 
-class Minst(object):
+class Mnist(object):
     def __init__(self, sizes):
         self.n_layers = len(sizes)
         self.sizes = sizes
